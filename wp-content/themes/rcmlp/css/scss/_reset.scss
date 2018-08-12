@@ -18,6 +18,7 @@ body {
 text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 line-height: 1;
 background: $black;
+overflow-x: hidden;
 }
 
 body .gform_wrapper .gform_validation_container {
