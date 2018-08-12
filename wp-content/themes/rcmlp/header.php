@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Muli:400,600,800|Oswald:300');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800|Oswald:300,700');
 </style>
 
 <?php wp_head(); ?>

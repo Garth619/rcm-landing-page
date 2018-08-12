@@ -58,12 +58,17 @@
 
 
 .sec_two_header {
-	margin-top:180px;
+	margin-top:225px;
+	flex-shrink: 0;
+	width: 600px;
+	position: relative;
+	z-index: 1;
+	margin-right:-10px;
 	h2 {
 		color:#fff;
 		text-transform: uppercase;
 		font-family: $muli;
-		font-style: none;
+		font-style: normal;
 		font-weight: 400;
 		font-size:39px;
 		letter-spacing: 0.14em;
@@ -75,7 +80,6 @@
 .blue_line_wrapper {
 	display: flex;
 	margin-top:25px;
-	
 	.circle {
 		width:30px;
 		height:30px;
@@ -120,6 +124,8 @@
 	height:620px;
 	border-radius: 25px;
 	padding:0 20px;
+	flex-shrink: 0;
+	margin-left:-10px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05384d+0,032837+100 */
 	background: #05384d; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #05384d 0%, #032837 100%); /* FF3.6-15 */

@@ -1,0 +1,19 @@
+#section_four {
+	background: $lightgrey;
+	width:100%;
+}
+
+.sec_four_inner {
+	text-align: center;
+	h2 {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $muli;
+		font-weight: 400;
+		font-size:39px;
+		letter-spacing: 0.22em;
+		font-style: normal;
+		line-height: 45px;
+	}
+}
+
