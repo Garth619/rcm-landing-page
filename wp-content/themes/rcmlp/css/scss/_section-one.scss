@@ -1,0 +1,62 @@
+#section_one {
+	position: relative;
+	.h1_wrapper {
+		position: relative;
+		max-width: 690px;
+		margin:145px auto 0;
+		padding:18px 20px;
+	}
+	h1 {
+		color:#fff;
+		font-family: $muli;
+		font-weight: 400;
+		font-size:43px;
+		letter-spacing: 0.22em;
+		text-transform: uppercase;
+		max-width:648px;
+		margin:0 auto;
+		text-align: center;
+		line-height: 52px;
+	}
+	.corner {
+		position: absolute;
+		svg {
+			width:36px;
+			height:36px;
+		}
+	}
+	.tl {
+		top:0;
+		left:0;
+	}
+	.tr {
+		top:0;
+		right:0;
+		transform: rotate(90deg);
+	}
+	.bl {
+		bottom:0;
+		left:0;
+		transform: rotate(-90deg);
+	}
+	.br {
+		bottom:0;
+		right:0;
+		transform: rotate(180deg);
+	}
+}
+
+.logo {
+	margin:25px 0 0px 30px;
+}
+
+.orange_svg {
+	position: absolute;
+	top:-45px;
+	right:-115px;
+	svg {
+		width:540px;
+		height:545px;
+	}
+	
+}

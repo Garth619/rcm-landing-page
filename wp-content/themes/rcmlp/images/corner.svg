@@ -1,0 +1,15 @@
+<svg id="corner" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .corner-cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>corner</title>
+  <line class="corner-cls-1" x1="1.5" y1="35" x2="1.5"/>
+  <line class="corner-cls-1" y1="1.5" x2="35" y2="1.5"/>
+</svg>
