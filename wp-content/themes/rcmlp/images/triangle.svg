@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>triangle</title>
+  <path class="cls-1" d="M14.5,2.29,9.37,9.54,4.23,2.29H14.5m3.87-2H.37L9.37,13l9-12.71Z" transform="translate(-0.37 -0.29)"/>
+</svg>

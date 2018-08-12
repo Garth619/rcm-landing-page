@@ -60,3 +60,15 @@
 	}
 	
 }
+
+.triangles_wrapper {
+	width:17px;
+	margin:85px auto 0;
+	.triangle {
+		margin-bottom:9px;
+		svg {
+			width:17px;
+			height:17px;
+		}
+	}
+}

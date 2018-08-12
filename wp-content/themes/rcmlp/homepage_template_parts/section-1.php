@@ -40,7 +40,30 @@
 			
 		</div><!-- corner -->
 
-	
 	</div><!-- h1_wrapper -->
+	
+	<div class="triangles_wrapper">
+		
+		
+		<div class="triangle">
+			
+			<?php echo file_get_contents("wp-content/themes/rcmlp/images/triangle.svg"); ?>
+			
+		</div><!-- triangle -->
+		
+		<div class="triangle">
+			
+			<?php echo file_get_contents("wp-content/themes/rcmlp/images/triangle.svg"); ?>
+			
+		</div><!-- triangle -->
+		
+		<div class="triangle">
+			
+			<?php echo file_get_contents("wp-content/themes/rcmlp/images/triangle.svg"); ?>
+			
+		</div><!-- triangle -->
+		
+		
+	</div><!-- triangles_wrapper -->
 	
 </section><!-- section_one -->
