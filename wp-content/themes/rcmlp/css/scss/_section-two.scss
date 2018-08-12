@@ -20,8 +20,121 @@
 	height:400px;
 	background: $lightgrey;
 	position: absolute;
-	top:150px;
+	top:450px;
 	left:0;
+	&:before {
+		content: "";
+    display: block;
+    position: absolute;
+    top: -320px;
+    left: -230px;
+    height: 700px;
+    background: $lightgrey;
+		transform: rotate(-156deg);
+		width: 1420px;
+	}
+	&:after {
+		content: "";
+    display: block;
+    position: absolute;
+    top: -230px;
+    right: -265px;
+    width: 1000px;
+    height: 700px;
+    background: $lightgrey;
+		transform: rotate(-24deg);
+	}
+}
+
+
+.sec_two_inner {
+	max-width:820px;
+	margin:125px auto 0;
+	position: relative;
+	z-index: 1;
+	display: flex;
+}
+
+
+.sec_two_header {
+	margin-top:180px;
+	h2 {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $muli;
+		font-style: none;
+		font-weight: 400;
+		font-size:39px;
+		letter-spacing: 0.14em;
+		line-height: 45px;
+		max-width:500px;
+	}
+}
+
+.blue_line_wrapper {
+	display: flex;
+	margin-top:25px;
+	.circle {
+		width:30px;
+		height:30px;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-shrink: 0;
+		&:before {
+			content:"";
+			display: block;
+			width:100%;
+			height:100%;
+			border:2px solid $blue;
+			border-radius: 50%;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		&:after {
+			content:"";
+			display: block;
+			width:20px;
+			height:20px;
+			background:$blue;
+			border-radius: 50%;
+			
+		}
+	}
+	.blue_line {
+		width:100%;
+		height:2px;
+		background: $blue;
+		flex-grow: 1;
+		margin-top:14px;
+	}
+}
+
+
+.iphone {
+	width:290px;
+	height:620px;
+	border-radius: 25px;
+	padding:0 20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05384d+0,032837+100 */
+	background: #05384d; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #05384d 0%, #032837 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #05384d 0%,#032837 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #05384d 0%,#032837 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05384d', endColorstr='#032837',GradientType=1 ); /* IE6-9 fallback on 	horizontal gradient */
+}
+
+
+.iphone_meta {
+	padding-top:20px;
+	
+	.date {
+		color:#fff;
+		font-family: $muli;
+		font-size:12px;
+	}
 }
 
 
