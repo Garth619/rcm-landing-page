@@ -1,11 +1,17 @@
 <section id="section_two">
 	
 	
-	<div class="pinksvg">
+
+	
+	
+		<div class="pinksvg">
 		
-		<?php echo file_get_contents("wp-content/themes/rcmlp/images/pink.svg"); ?>
+			<?php echo file_get_contents("wp-content/themes/rcmlp/images/pink-weed.svg"); ?>
 		
-	</div><!-- pinksvg -->
+		</div><!-- pinksvg -->
+	
+	
+		<div class="light_grey_wrapper"></div><!-- light_grey_wrapper -->
 	
 	
 </section><!-- section_two -->

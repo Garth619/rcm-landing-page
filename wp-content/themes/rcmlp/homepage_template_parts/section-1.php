@@ -8,7 +8,7 @@
 
 	<div class="orange_svg">
 		
-		<?php echo file_get_contents("wp-content/themes/rcmlp/images/orange.svg"); ?>
+		<?php echo file_get_contents("wp-content/themes/rcmlp/images/orange-weed.svg"); ?>
 		
 	</div><!-- orange_svg -->
 	
