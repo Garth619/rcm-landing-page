@@ -197,4 +197,80 @@ span.iphone_title {
 	}
 }
 
+.weed_row {
+	text-align: center;
+	margin-top:35px;
+	svg {
+		width:40px;
+		height:40px;
+		margin:0 1px;
+		path, rect {
+			fill:#4cb8e9;
+		}
+		&:nth-of-type(4), &:nth-of-type(5) {
+			path, rect {
+				fill:#021017;
+			}
+		}
+	}
+}
+
+
+.bars_wrapper {
+	margin-top:23px;
+	padding-left:18px;
+	padding-right:18px;
+	.single_bar {
+		margin-bottom: 18px;
+		&:nth-of-type(2) {
+			span.bar {
+				&:before {
+					width:40%;
+				}
+			}
+		}
+		&:nth-of-type(3) {
+			span.bar {
+				&:before {
+					width:65%;
+				}
+			}
+		}
+		&:nth-of-type(4) {
+			span.bar {
+				&:before {
+					width:20%;
+				}
+			}
+		}
+		span.bar_title {
+			text-transform: uppercase;
+			color:#4cb8e9;
+			font-family: $muli;
+			font-weight: 700;
+			font-size:13px;
+			letter-spacing: 0.2em;
+		}
+		span.bar {
+			width:100%;
+			height:5px;
+			display: block;
+			background: #021a23;
+			margin-top:9px;
+			position: relative;
+			&:before {
+				content:"";
+				display: block;
+				width:70%;
+				height:100%;
+				position: absolute;
+				top:0;
+				left:0;
+				background: #4cb8e9;
+			}
+			
+		}
+	}
+}
+
 

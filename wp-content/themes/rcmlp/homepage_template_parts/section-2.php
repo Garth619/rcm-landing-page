@@ -63,7 +63,55 @@
 						
 					</div><!-- graph_wrapper -->
 			
-			
+					<div class="weed_row">
+						
+						<?php echo file_get_contents("wp-content/themes/rcmlp/images/weed.svg"); ?>
+						
+						<?php echo file_get_contents("wp-content/themes/rcmlp/images/weed.svg"); ?>
+						
+						<?php echo file_get_contents("wp-content/themes/rcmlp/images/weed.svg"); ?>
+						
+						<?php echo file_get_contents("wp-content/themes/rcmlp/images/weed.svg"); ?>
+						
+						<?php echo file_get_contents("wp-content/themes/rcmlp/images/weed.svg"); ?>
+						
+					</div><!-- weed_row -->
+					
+					<div class="bars_wrapper">
+						
+						<div class="single_bar">
+							
+							<span class="bar_title">Get Found</span><!-- bar_title -->
+							
+							<span class="bar"></span><!-- bars_wrapper -->
+							
+						</div><!-- single_bar -->
+						
+						<div class="single_bar">
+							
+							<span class="bar_title">Get Social</span><!-- bar_title -->
+							
+							<span class="bar"></span><!-- bars_wrapper -->
+							
+						</div><!-- single_bar -->
+						
+						<div class="single_bar">
+							
+							<span class="bar_title">Get Local</span><!-- bar_title -->
+							
+							<span class="bar"></span><!-- bars_wrapper -->
+							
+						</div><!-- single_bar -->
+						
+						<div class="single_bar">
+							
+							<span class="bar_title">Get Reviews</span><!-- bar_title -->
+							
+							<span class="bar"></span><!-- bars_wrapper -->
+							
+						</div><!-- single_bar -->
+						
+					</div><!-- bars_wrapper -->
 			
 				</div><!-- iphone -->
 			
