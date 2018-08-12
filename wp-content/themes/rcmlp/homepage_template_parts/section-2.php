@@ -39,7 +39,29 @@
 							
 						</div><!-- date -->
 						
+						<div class="iphone_icons">
+							
+							<?php echo file_get_contents("wp-content/themes/rcmlp/images/iphone-icons.svg"); ?>
+							
+						</div><!-- iphone_icons -->
+						
 					</div><!-- iphone_meta -->
+					
+					<span class="iphone_title">Rate My Dispensary</span><!-- iphone_title -->
+					
+					<div class="graph_wrapper">
+						
+						<div class="graph">
+							
+							<?php echo file_get_contents("wp-content/themes/rcmlp/images/graph.svg"); ?>
+							
+						</div><!-- graph -->
+						
+						<span class="graph_number">81</span><!-- graph_number -->
+						
+						<span class="total">Total</span><!-- total -->
+						
+					</div><!-- graph_wrapper -->
 			
 			
 			
