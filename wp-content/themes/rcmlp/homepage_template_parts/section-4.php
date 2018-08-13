@@ -12,4 +12,10 @@
 		
 	</div><!-- sec_four_inner -->
 	
+	<div class="blue_weed">
+		
+		<?php echo file_get_contents("wp-content/themes/rcmlp/images/blue-weed.svg"); ?>
+		
+	</div><!-- blue_weed -->
+	
 </section><!-- section_four -->

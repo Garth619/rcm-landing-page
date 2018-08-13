@@ -1,6 +1,9 @@
 #section_four {
 	background: $lightgrey;
 	width:100%;
+	padding-bottom:200px;
+	position: relative;
+	overflow: hidden;
 }
 
 .sec_four_inner {
@@ -16,4 +19,116 @@
 		line-height: 45px;
 	}
 }
+
+
+.form {
+	max-width:980px;
+	margin:165px auto 0;
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		li#field_1_5 {
+			flex-basis: 100%;
+		}
+		li {
+			flex-basis: 47%;
+			margin-bottom:34px;
+			position: relative;
+			&:after {
+				content:"";
+				width:7px;
+				height:7px;
+				background: $teal;
+				display: block;
+				border-radius: 50%;
+				position: absolute;
+				top:26px;
+				right:0;
+			}
+			label {
+				display: none;
+			}
+			input, textarea {
+				border: none;
+				display: block;
+				width:100%;
+				background: transparent;
+				border-bottom:4px solid $teal;
+				color:#fff;
+				font-family: $muli;
+				font-size:18px;
+				letter-spacing: 0.1em;
+				padding:18px 20px 18px 0;
+			}
+			textarea {
+				height: 100px;
+			}
+			 ::-webkit-input-placeholder {
+        	color: #fff; }
+				::-moz-placeholder {
+        	color: #fff; }
+				:-moz-placeholder {
+        	color: #fff; }
+				:-ms-input-placeholder {
+        	color: #fff; }
+				::-moz-placeholder {
+        	opacity: 1; }
+			}
+		}
+		input[type="submit"] {
+			background: $teal;
+			border: none;
+			color:#fff;
+			text-transform: uppercase;
+			font-size:21px;
+			font-family: $muli;
+			font-weight: 800;
+			letter-spacing: 0.12em;
+			margin-top:30px;
+			padding:15px 58px;
+			border:1px solid $teal;
+			cursor: pointer;
+			transition: all 200ms ease-in-out;
+			&:hover {
+				border:1px solid #fff;
+				background: transparent;
+				
+			}
+		}
+	}
+
+.validation_error {
+	display: none;
+}
+
+.gfield_description, .validation_message {
+	color:#fff;
+	text-align: left;
+	font-family: $muli;
+	font-size: 14px;
+	letter-spacing: 0.12em;
+	margin-top:7px;
+	color:$teal;
+}
+
+.blue_weed {
+	position: absolute;
+	bottom: -339px;
+  right: -86px;
+	svg {
+		width:600px;
+	}
+}
+
+
+.gform_confirmation_message {
+	color:#fff;
+	font-family: $muli;
+	font-size:20px;
+	letter-spacing: 0.1em;
+}
+
+
 
