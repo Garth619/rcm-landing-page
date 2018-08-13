@@ -2,7 +2,7 @@
 	
 	<div class="logo">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/logo.png"/>
+		<?php echo file_get_contents("wp-content/themes/rcmlp/images/logo.svg"); ?>
 		
 	</div><!-- logo -->
 

@@ -183,6 +183,16 @@
 		"oAP": "\/homepage_template_parts\/section-4.php",
 		"oF": 0
 		},
+	"\/images\/black-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/black-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/blue-weed.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -233,6 +243,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/orange-weed.svg": {
 		"ft": 2097152,

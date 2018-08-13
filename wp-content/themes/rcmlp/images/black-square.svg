@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806 862.34">
+  <defs>
+    <style>
+      .black-square-cls-1 {
+        fill: #0d2021;
+      }
+    </style>
+  </defs>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <polygon class="black-square-cls-1" points="403 0 0 338.34 806 338.34 403 0"/>
+        <rect class="black-square-cls-1" y="338.34" width="805.97" height="524"/>
+      </g>
+    </g>
+  </g>
+</svg>
