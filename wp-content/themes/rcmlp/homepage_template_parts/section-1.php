@@ -26,7 +26,7 @@
 			
 		</div><!-- corner -->
 		
-		<h1>How do you compare to other dispensaries?</h1>
+		<h1>How do<br/> you compare<br/> to other dispensaries?</h1>
 		
 		<div class="corner bl">
 			

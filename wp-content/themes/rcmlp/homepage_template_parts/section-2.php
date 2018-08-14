@@ -14,6 +14,29 @@
 					
 					<h2>Let us share your score with you!</h2>
 					
+					<div class="triangles_wrapper">
+		
+		
+						<div class="triangle">
+			
+							<?php echo file_get_contents("wp-content/themes/rcmlp/images/triangle.svg"); ?>
+			
+						</div><!-- triangle -->
+		
+						<div class="triangle">
+			
+							<?php echo file_get_contents("wp-content/themes/rcmlp/images/triangle.svg"); ?>
+			
+						</div><!-- triangle -->
+		
+						<div class="triangle">
+			
+							<?php echo file_get_contents("wp-content/themes/rcmlp/images/triangle.svg"); ?>
+			
+					</div><!-- triangle -->
+					
+					</div><!-- triangles_wrapper -->
+					
 					<div class="blue_line_wrapper">
 						
 						<div class="circle"></div>
