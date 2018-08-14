@@ -195,6 +195,8 @@
 	
 	#section_four {
 		padding-top: 70px;
+		padding-left:30px;
+		padding-right:30px;
 	}
 	
 	.sec_four_inner {
@@ -212,6 +214,7 @@
 	
 	.form {
 		margin: 45px auto 0;
+		max-width:550px;
 		ul {
 			li {
 				flex-basis: 100%;
@@ -229,6 +232,12 @@
 		}
 	}
 	
+	.blue_weed {
+		svg {
+    	width: 449px;
+		}
+	}
+	
 	
 	
 	
@@ -238,11 +247,7 @@
 @media screen and (max-width: 825px) {
 	
 	
-	.blue_weed {
-		svg {
-    	width: 449px;
-		}
-	} 
+	 
 	
 	
 	

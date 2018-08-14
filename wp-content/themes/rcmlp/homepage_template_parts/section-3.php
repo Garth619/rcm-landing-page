@@ -44,7 +44,7 @@
 	
 		<div class="pinksvg">
 		
-			<?php echo file_get_contents("wp-content/themes/rcmlp/images/pink-weed.svg"); ?>
+			<?php echo file_get_contents("wp-content/themes/rcmlp/images/pink-weed-two.svg"); ?>
 		
 		</div><!-- pinksvg -->
 	
