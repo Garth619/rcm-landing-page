@@ -34,6 +34,7 @@
     background: $lightgrey;
 		transform: rotate(-156deg);
 		width: 1420px;
+		
 	}
 	&:after {
 		content: "";
@@ -65,6 +66,7 @@
 	width: 600px;
 	position: relative;
 	z-index: 1;
+	
 	margin-right:-10px;
 	h2 {
 		color:#fff;
@@ -335,14 +337,15 @@ span.iphone_title {
 	
 	.sec_two_header {
 		order:2;
+		width:100%;
 		margin: -44px auto 0;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		h2 {
-			max-width: 100%;
+			max-width: 620px;
 			order:3;
-			margin-top:25px;
+			margin:25px auto 0;
 		}
 	}
 	
@@ -429,6 +432,22 @@ span.iphone_title {
 				width: 254px;
 			}
 		}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 690px) {
+	
+	
+	
+	.pinksvg {
+		bottom:165px;
+		top:auto;
+	}
+	
 	
 	
 	
