@@ -8,6 +8,9 @@
 	padding-bottom:150px;
 	padding-left:30px;
 	padding-right:30px;
+	.pinksvg {
+		display: none;
+	}
 }
 
 
@@ -117,5 +120,25 @@
 			}
 		}
 	}
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 575px) {
+	
+	
+	
+#section_three {
+	position: relative;
+	z-index:2;
+	.pinksvg {
+		display: block;
+	
+		bottom:0;
+		z-index: 2;
+	}
+}
+	
+	
 	
 } /* Media Query */

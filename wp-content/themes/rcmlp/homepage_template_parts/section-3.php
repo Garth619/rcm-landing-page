@@ -42,4 +42,10 @@
 	
 	</div><!-- sec_three_inner -->
 	
+		<div class="pinksvg">
+		
+			<?php echo file_get_contents("wp-content/themes/rcmlp/images/pink-weed.svg"); ?>
+		
+		</div><!-- pinksvg -->
+	
 </section><!-- section_three -->

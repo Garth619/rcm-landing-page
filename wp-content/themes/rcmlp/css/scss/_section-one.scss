@@ -223,3 +223,64 @@
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 520px) {
+	
+	
+	#section_one {
+		.h1_wrapper {
+			
+		}
+		h1 {
+			
+		}
+	} 
+	
+	
+	.logo {
+		margin:15px 0 0 -25px;
+		svg {
+			width: 257px;
+		}
+	}
+	
+	
+	.orange_svg {
+	  top: -90px;
+    right: -78px;
+	svg {
+		width:250px;
+		height:250px;
+	}
+	
+}
+
+
+
+	#section_one {
+		.tr, .bl {
+			display: none;
+		}
+		.corner {
+			svg {
+				width:25px;
+				height:25px;
+			}
+		}
+		.h1_wrapper {
+			max-width: 352px;
+			padding: 33px 20px;
+			margin: 64px auto 0;
+		}
+		h1 {
+			font-size: 27px;
+			line-height: 38px;
+			line-height: 32px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
