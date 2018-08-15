@@ -1,0 +1,131 @@
+@media screen and (min-width: 767px) {} /* Media Query */
+
+
+// section one
+
+.triangles_wrapper {
+	animation-name: triangle_move;
+	animation-duration: 2300ms;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	.triangle {
+			
+		
+	}
+}
+
+
+
+// secton two
+
+
+
+.sec_two_header h2 {
+	opacity: 0;
+	transition: opacity 800ms ease-in-out
+}
+
+
+#section_two.visible {
+	.sec_two_header h2 {
+		opacity: 1;
+	}
+}
+
+
+.blue_line_wrapper {
+	.blue_line {
+		width:0%;
+		transition: all 2700ms cubic-bezier(.17,.66,.34,.98);
+		flex-grow:0;
+	}
+	.circle {
+		opacity: 0;
+		transition: opacity 1000ms linear;
+		&:before {
+			animation-name: pulse;
+			animation-duration: 1900ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+		&:after {
+			
+		}
+	}
+}
+
+
+
+#section_two.visible {
+	.blue_line_wrapper {
+		.blue_line {
+			width:100%;
+			flex-grow:1;
+		}
+		.circle {
+			opacity: 1;
+			transition-delay: 1700ms;
+			&:before {
+				
+			}
+			&:after {
+			
+			}
+		}
+	}
+}
+
+
+
+// iphone
+
+
+span.iphone_title {
+	opacity: 0;
+	transition: all 400ms ease-in-out;
+}
+
+
+#section_two.visible {
+	span.iphone_title {
+		opacity: 1;
+	}
+}
+
+
+.graph_wrapper .graph svg {
+	.graph-cls-2 {
+		stroke-dasharray: 500;
+		stroke-dashoffset: 500;
+		
+	}
+}
+
+
+#section_two.visible {
+	.graph_wrapper .graph svg {
+		.graph-cls-2 {
+			animation: dash 4200ms cubic-bezier(.17,.66,.34,.98); forwards; 
+		}
+	}
+}
+
+
+
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+
+
+
+

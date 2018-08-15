@@ -80,7 +80,7 @@
 							
 						</div><!-- graph -->
 						
-						<span class="graph_number">81</span><!-- graph_number -->
+						<span id="number_counter" class="graph_number">0</span><!-- graph_number -->
 						
 						<span class="total">Total</span><!-- total -->
 						
