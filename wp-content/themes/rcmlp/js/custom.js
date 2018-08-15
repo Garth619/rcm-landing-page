@@ -51,9 +51,12 @@ jQuery(document).ready(function($){
 	    //Example -> createWaypoint('section-2', null, null, 0, test, true);
 	
 	
-			createWaypoint('section_two', '#section_two', 'visible', 500, null, true);
+			createWaypoint('section_two', '#section_two', 'visible', 500, countNumbers, true);
 			
-			
+	
+	
+	function countNumbers() {
+
 			
 			var options = {
 			  useEasing: true, 
@@ -61,13 +64,15 @@ jQuery(document).ready(function($){
 			  separator: ',', 
 			  decimal: '.', 
 			};
-			var demo = new CountUp('number_counter', 0, 81, 0, 2, options);
+			var demo = new CountUp('number_counter', 0, 81, 0, 1.5, options);
 			if (!demo.error) {
 			  demo.start();
 			} else {
 			  console.error(demo.error);
 			}
 			
+
+			}
 	
 	
   

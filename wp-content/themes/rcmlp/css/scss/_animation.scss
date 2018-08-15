@@ -82,6 +82,7 @@
 // iphone
 
 
+/*
 span.iphone_title {
 	opacity: 0;
 	transition: all 400ms ease-in-out;
@@ -93,6 +94,7 @@ span.iphone_title {
 		opacity: 1;
 	}
 }
+*/
 
 
 .graph_wrapper .graph svg {
@@ -107,25 +109,99 @@ span.iphone_title {
 #section_two.visible {
 	.graph_wrapper .graph svg {
 		.graph-cls-2 {
-			animation: dash 4200ms cubic-bezier(.17,.66,.34,.98); forwards; 
+			animation: dash 3200ms cubic-bezier(.17,.66,.34,.98) forwards;
 		}
 	}
 }
 
 
 
-
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
+.weed_row  {
+	svg {
+		&:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3) {
+			path, rect {
+				fill:#021017;
+				transition: all 700ms linear;
+			}
+		}
+	}
 }
 
 
+#section_two.visible {
+	.weed_row  {
+		svg {
+			&:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3) {
+				path, rect {
+					fill:#4cb8e9;
+				}
+			}
+			&:nth-of-type(2) {
+				path, rect {
+					transition-delay: 200ms;
+				}
+			}
+			&:nth-of-type(3) {
+				path, rect {
+					transition-delay: 400ms;
+				}
+			}
+		}
+	}
+}
 
 
+.bars_wrapper {
+	.single_bar {
+		&:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4) {
+			span.bar {
+				&:before {
+					width:0%;
+					transition: all 1500ms cubic-bezier(.17,.66,.34,.98);
+				}
+			}
+		}
+	}
+} 
 
+
+#section_two.visible {
+	.bars_wrapper {
+		.single_bar {
+			&:nth-of-type(1) {
+				span.bar {
+					&:before {
+						width:70%;
+					}
+				}
+			}
+			&:nth-of-type(2) {
+				span.bar {
+					&:before {
+						width:40%;
+						transition-delay: 150ms;
+					}
+				}
+			}
+			&:nth-of-type(3) {
+				span.bar {
+					&:before {
+						width:55%;
+						transition-delay: 300ms;
+					}
+				}
+			}
+			&:nth-of-type(4) {
+				span.bar {
+					&:before {
+						width:20%;
+						transition-delay: 450ms;
+					}
+				}
+			}
+		}
+	} 
+} 
 
 
 
