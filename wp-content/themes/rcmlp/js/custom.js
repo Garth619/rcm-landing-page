@@ -51,8 +51,13 @@ jQuery(document).ready(function($){
 	    //Example -> createWaypoint('section-2', null, null, 0, test, true);
 	
 	
+			
+			
 			createWaypoint('section_two', '#section_two', 'visible', 500, countNumbers, true);
 			
+	
+	$('#section_one').addClass('visible');
+	
 	
 	
 	function countNumbers() {
