@@ -466,3 +466,32 @@ span.iphone_title {
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 505px) {
+	
+	
+	
+	.sec_two_header h2 {
+    font-size: 29px;
+		line-height: 36px;
+    max-width: 375px;
+   }
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 400px) {
+	
+	
+	.sec_two_header h2 {
+    max-width: 315px;
+   }
+	
+	    
+	
+	
+} /* Media Query */

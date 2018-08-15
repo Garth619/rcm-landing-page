@@ -143,3 +143,41 @@
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 505px) {
+	
+	
+	
+	.sec_three_inner h2 {
+    font-size: 29px;
+		line-height: 36px;
+    max-width: 350px;
+   }
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 405px) {
+	
+	#section_three {
+		.pinksvg {
+    	left: -64px;
+			top: -250px;
+			svg {
+	    	width: 193px;
+    	}
+		}
+	} 
+	
+	
+	.sec_three_inner h2 {
+   
+    max-width: 300px;
+   }
+	
+	
+	
+} /* Media Query */

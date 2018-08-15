@@ -253,17 +253,58 @@
 	
 } /* Media Query */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 615px) {
 	
 	
-	
-	
-	.sec_four_inner {
-		h2 {
-			 
+	.blue_weed {
+		svg {
+    	width: 400px;
+    	transform: rotate(35deg);
 		}
-	} 
+	}
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 604px) {
+	
+	
+	#section_four {
+		padding-top: 45px;
+	}
+	
+	.sec_four_inner h2 {
+		max-width: 322px;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 505px) {
+	
+	
+	
+	.sec_four_inner h2 {
+    font-size: 29px;
+		line-height: 36px;
+    max-width: 325px;
+   }
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 350px) {
+	
+	#section_four {
+		padding-left:20px;
+		padding-right:20px;
+	}
 	
 	
 	
