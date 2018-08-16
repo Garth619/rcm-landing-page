@@ -2,10 +2,10 @@
 
 	
 				
-<h1 class="entry-title">Not Found</h1>
+<h1 class="entry-title" style="color:#fff">Not Found</h1>
 				
 				
-<p>Apologies, but the page you requested could not be found.</p>
+
 				
 <?php // get_sidebar(); ?>
 			
