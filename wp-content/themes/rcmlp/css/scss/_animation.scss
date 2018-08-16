@@ -105,37 +105,43 @@
 // iphone
 
 
-/*
-span.iphone_title {
-	opacity: 0;
-	transition: all 400ms ease-in-out;
-}
-
-
-#section_two.visible {
-	span.iphone_title {
-		opacity: 1;
-	}
-}
-*/
-
-
-.graph_wrapper .graph svg {
-	.graph-cls-2 {
-		stroke-dasharray: 500;
-		stroke-dashoffset: 500;
-		
-	}
-}
-
-
-#section_two.visible {
-	.graph_wrapper .graph svg {
-		.graph-cls-2 {
-			animation: dash 3200ms cubic-bezier(.17,.66,.34,.98) forwards;
+.graph_wrapper {
+	.graph {
+		svg {
+			.graph-st1 {
+				stroke-dasharray: 400;
+				stroke-dashoffset: 400;
+				stroke:#4cb8e9;
+				transition: stroke 700ms ease-in-out;
+			}
 		}
 	}
+	span.total {
+		color:#4cb8e9;
+		transition: all 700ms ease-in-out;
+	}
+} 
+
+
+#section_two.visible {
+	.graph_wrapper {
+		.graph {
+			svg {
+				.graph-st1 {
+					animation: dash 4900ms cubic-bezier(.17,.66,.34,.98) forwards;
+					stroke:#e23959;
+					transition-delay: 1300ms;
+				}
+			}
+		}
+		span.graph_number {
+			
+		}
+	} 	
 }
+
+
+
 
 
 
@@ -231,11 +237,78 @@ span.iphone_title {
 @media screen and (max-width: 1130px) {
 	
 	
-	#section_two.visible .blue_line_wrapper .blue_line {
-		width:1px;
+	
+	
+
+	.blue_line_wrapper {
+		.blue_line {
+			width:1px;
+			flex-grow: 1;
+		}
+		.circle {
+			opacity: 1;
+			&:before {
+				
+			}
+			&:after {
+			
+			}
+		}
 	}
+
+
+
+	
+	
+#section_two.visible {
+	.blue_line_wrapper {
+		.blue_line {
+			width:1px;
+			animation-name: none;
+			
+		}
+		.circle {
+			
+			&:before {
+				
+			}
+			&:after {
+			
+			}
+		}
+	}
+}
+
 	
 	
 	
 } /* Media Query */
+
+
+
+// section three
+
+
+
+
+.sec_three_inner {
+	h2 {
+		&:after {
+			transform: scaleX(0);
+			transition: all 1100ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+} 
+
+#section_three.visible {
+	.sec_three_inner {
+		h2 {
+			&:after {
+				transform: scaleX(1);
+			}
+		}
+	}
+}
+
+
 

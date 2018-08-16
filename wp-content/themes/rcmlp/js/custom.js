@@ -52,11 +52,11 @@ jQuery(document).ready(function($){
 	
 	
 			
+			$('#section_one').addClass('visible');
 			
-			createWaypoint('section_two', '#section_two', 'visible', 500, countNumbers, true);
+			createWaypoint('section_two', '#section_two', 'visible', 225, countNumbers, false);
 			
-	
-	$('#section_one').addClass('visible');
+			createWaypoint('section_three', '#section_three', 'visible', 300, null, false);
 	
 	
 	
@@ -69,7 +69,7 @@ jQuery(document).ready(function($){
 			  separator: ',', 
 			  decimal: '.', 
 			};
-			var demo = new CountUp('number_counter', 0, 81, 0, 1.5, options);
+			var demo = new CountUp('number_counter', 0, 49, 0, 1.5, options);
 			if (!demo.error) {
 			  demo.start();
 			} else {
