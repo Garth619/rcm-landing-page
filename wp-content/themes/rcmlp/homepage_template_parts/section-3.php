@@ -10,9 +10,10 @@
 				
 				<span class="number">01</span><!-- number -->
 				
-				<span class="step_title">Digital Score Analysis</span><!-- step_title -->
+				<span class="step_title">Digital Score</span><!-- step_title -->
 				
-				<span class="step_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span><!-- step_content -->
+				<span class="step_content">A personalized Local Report and mystery shopping feedback of your digital presence. 
+We will evaluate your google rank, reputation, and marketing to see how you measure up in your industry. </span><!-- step_content -->
 				
 			</div><!-- single_step -->
 			
@@ -22,7 +23,7 @@
 				
 				<span class="step_title">Quick Wins!</span><!-- step_title -->
 				
-				<span class="step_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span><!-- step_content -->
+				<span class="step_content">Free and easy best practices to implement today.. or we can do it for you. Remove the blind spots and beat the competition!</span><!-- step_content -->
 				
 			</div><!-- single_step -->
 
@@ -33,7 +34,8 @@
 				
 				<span class="step_title">Suggestions for growth</span><!-- step_title -->
 				
-				<span class="step_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span><!-- step_content -->
+				<span class="step_content">Full audit and recommendation for growth. Built to exceed your goals!
+</span><!-- step_content -->
 				
 			</div><!-- single_step -->
 
